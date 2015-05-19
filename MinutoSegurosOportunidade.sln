@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinutoSegurosBlogParser", "src\MinutoSegurosBlogParser\MinutoSegurosBlogParser.csproj", "{C9086435-E594-479F-B0BE-0EB665169705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinutoSegurosBlogParser.Tests", "tests\MinutoSegurosBlogParser.Tests\MinutoSegurosBlogParser.Tests.csproj", "{DD0D93D9-8EB7-478A-8DA7-E52D609D7AB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{37D2E3A0-A4AB-441E-8B42-34A102B5B326}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D9C3CA3F-CE74-4E5D-8DA5-3A05D78EF6D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{30461E0A-FF77-4BFC-9F52-8DD16936266D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinutoSegurosBlogParser.Console.Sample", "samples\MinutoSegurosBlogParser.Console.Sample\MinutoSegurosBlogParser.Console.Sample.csproj", "{3865FA9B-6BB7-4373-ABD9-5EF02C281D47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9086435-E594-479F-B0BE-0EB665169705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9086435-E594-479F-B0BE-0EB665169705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9086435-E594-479F-B0BE-0EB665169705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9086435-E594-479F-B0BE-0EB665169705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD0D93D9-8EB7-478A-8DA7-E52D609D7AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0D93D9-8EB7-478A-8DA7-E52D609D7AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0D93D9-8EB7-478A-8DA7-E52D609D7AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0D93D9-8EB7-478A-8DA7-E52D609D7AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3865FA9B-6BB7-4373-ABD9-5EF02C281D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3865FA9B-6BB7-4373-ABD9-5EF02C281D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3865FA9B-6BB7-4373-ABD9-5EF02C281D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3865FA9B-6BB7-4373-ABD9-5EF02C281D47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9086435-E594-479F-B0BE-0EB665169705} = {D9C3CA3F-CE74-4E5D-8DA5-3A05D78EF6D8}
+		{DD0D93D9-8EB7-478A-8DA7-E52D609D7AB8} = {37D2E3A0-A4AB-441E-8B42-34A102B5B326}
+		{3865FA9B-6BB7-4373-ABD9-5EF02C281D47} = {30461E0A-FF77-4BFC-9F52-8DD16936266D}
+	EndGlobalSection
+EndGlobal
